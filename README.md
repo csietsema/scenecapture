@@ -14,9 +14,11 @@ This tool was initially created to help my friends & clients play around with th
    
    **Run Scene:** redy9
    
-3) Inside the **Get Scene** piston, update `allDevices` variable to all the lights you would like to pull data from
+3) Inside the **Get Scene** piston, update `allDevices` (line 13) variable to all the lights you would like to pull data from
 
-   If you are this for multiple users *(webCoRE Instances)* you also need to update `userId` with a unique name/number *(no spaces or special characters)* for each Get Scene piston. If left blank userId 1 will be autmoaticlly used.
+  You also need to update the url for GET Request (line 53) so that it points to store-scene.php on your domain.
+
+   If you are this for multiple users *(webCoRE Instances)* you also need to update `userId` (line 21) with a unique name/number *(no spaces or special characters)* for each Get Scene piston. If left blank userId 1 will be autmoaticlly used.
 
 4) Open up `config.php` and enter the 2 pistons External URL's.
 You can get them by opening each piston, right click on External URL link and select Copy Link.
