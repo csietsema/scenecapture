@@ -16,7 +16,7 @@ This tool was initially created to help my friends & clients play around with th
    
 3) Inside the **Get Scene** piston, update `allDevices` (line 13) variable to all the lights you would like to pull data from
 
-  You also need to update the url for GET Request (line 53) so that it points to store-scene.php on your domain.
+   You also need to update the url for GET Request (line 53) so that it points to store-scene.php on your domain.
 
    If you are this for multiple users *(webCoRE Instances)* you also need to update `userId` (line 21) with a unique name/number *(no spaces or special characters)* for each Get Scene piston. If left blank userId 1 will be autmoaticlly used.
 
