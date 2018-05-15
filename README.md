@@ -5,7 +5,7 @@ This tool was initially created to help my friends & clients play around with th
 
 *This tool supports multiple users in case you are helping more then 1 friend or client with their smart home lights.*
 
-## SETING UP
+## SETTING UP
 1) Upload package to your web host
 
 2) Create 2 new pistons in [webCoRE](http://webcore.co) using the follwoing backup codes
